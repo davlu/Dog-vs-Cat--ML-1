@@ -1,5 +1,5 @@
 # Dog-vs-Cat--ML-1
-Tensorflow model to correctly identify whether a picture is that of a cat or a dog.
+Tensorflow model to correctly identify whether a picture is that of a cat or a dog. All the testing and training pics came from Kaggle's 'Dog vs Cat' competition.
 
 At first, the model had a 49.08% accuracy. As you can see, something is wrong here.
 <img width="465" alt="ml2" src="https://user-images.githubusercontent.com/22898605/29312583-bbefedf8-817b-11e7-9a74-cec826086662.png">
