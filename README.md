@@ -9,7 +9,7 @@ After going up from 2 convolution layers(orange) where the accuracy remained sta
 <img width="669" alt="ml3" src="https://user-images.githubusercontent.com/22898605/29312781-9cdf8044-817c-11e7-886e-6a3d2f284fa0.PNG">
 
 
-Evidently, this helped a lot with the differentiation between Cat and Dog.
+Yay. This helped a lot with the differentiation between Cat and Dog.
 
 <img width="415" alt="ml1" src="https://user-images.githubusercontent.com/22898605/29312537-76093b5a-817b-11e7-9004-006eac83d346.PNG">
 
