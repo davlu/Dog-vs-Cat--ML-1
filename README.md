@@ -6,8 +6,7 @@ At first, the model had a 49.56% accuracy. As you can see, something is wrong he
 
 After going up from 2 convolution layers(orange) where the accuracy remained stagnant at around ~50% to 6 convolution layers(lavender), the accuracy increased all the way up to 94.72%.
 
-<img width="669" alt="ml3" src="https://user-images.githubusercontent.com/22898605/29312781-9cdf8044-817c-11e7-886e-6a3d2f284fa0.PNG">
-
+![testpic_li](https://user-images.githubusercontent.com/22898605/29329596-01b7962a-81bc-11e7-9bdd-928f452fc2d8.jpg)
 
 Now the algorithm can accurately differentiate between Cat and Dog :)
 
