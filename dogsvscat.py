@@ -3,7 +3,12 @@ import cv2
 import os
 from random import shuffle
 from tqdm import tqdm
-
+import tflearn
+from tflearn.layers.conv import conv_2d, max_pool_2d
+from tflearn.layers.core import input_data, dropout, fully_connected
+from tflearn.layers.estimator import regression
+import tensorflow as tf
+import matplotlib.pyplot as plt
 
 TrainSet = 'C:/Kaggle/train/train'
 TestSet = 'C:/Kaggle/test/test'
@@ -44,13 +49,6 @@ def processTestData():
     return test_data
 
 train_data = np.load('train_data.py.npy')
-
-
-import tflearn
-from tflearn.layers.conv import conv_2d, max_pool_2d
-from tflearn.layers.core import input_data, dropout, fully_connected
-from tflearn.layers.estimator import regression
-import tensorflow as tf
 
 tf.reset_default_graph()
 
@@ -100,7 +98,6 @@ model.fit({'input': X}, {'targets': Y}, n_epoch=5, validation_set=({'input': tes
 
 model.save(ModelName)
 
-import matplotlib.pyplot as plt
 
 test_data = processTestData()
 fig = plt.figure()
